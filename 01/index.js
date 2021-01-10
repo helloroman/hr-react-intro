@@ -1,16 +1,9 @@
 'use strict';
 
 const Paragraph = () => {
-  return React.createElement(
-    'p',
-    {
-      id: 'first-paragraph',
-      className: 'paragraph',
-    },
-    'Lorem ipsum dolor sit amet',
-  );
+  return <p className="paragraph" id="first-paragraph">Lorem ipsum dolor sit amet</p>;
 };
 
 const appContainer = document.querySelector('#app');
 
-ReactDOM.render(React.createElement(Paragraph), appContainer);
+ReactDOM.render(<Paragraph />, appContainer);
