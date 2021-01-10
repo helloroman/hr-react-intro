@@ -1,9 +1,36 @@
 'use strict';
 
-const Paragraph = () => {
-  return <p className="paragraph" id="first-paragraph">Lorem ipsum dolor sit amet</p>;
+const data = [
+  {
+    name: "Adam",
+    age: 28,
+    group: "Sem I / Group B"
+  },
+  {
+    name: "Roman",
+    age: 30,
+    group: "Sem III / Group C"
+  },
+  {
+    name: "Ania",
+    age: 27,
+    group: "Sem I / Group A"
+  },
+  {
+    name: "Karol",
+    age: 31,
+    group: "Sem IV / Group A"
+  },
+];
+
+const Users = () => {
+  return (
+    <div>
+      <h1>Map users from data array</h1>
+    </div>
+  );
 };
 
 const appContainer = document.querySelector('#app');
 
-ReactDOM.render(<Paragraph />, appContainer);
+ReactDOM.render(<Users />, appContainer);
