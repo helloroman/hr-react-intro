@@ -3,7 +3,10 @@
 const Paragraph = () => {
   return React.createElement(
     'p',
-    {},
+    {
+      id: 'first-paragraph',
+      className: 'paragraph',
+    },
     'Lorem ipsum dolor sit amet',
   );
 };
