@@ -1,7 +1,7 @@
 export const data = [
   {
     name: 'Adam',
-    age: 28,
+    age: 150,
   },
   {
     name: 'Ania',
@@ -12,5 +12,3 @@ export const data = [
     age: 18,
   }
 ];
-
-// export default data;
